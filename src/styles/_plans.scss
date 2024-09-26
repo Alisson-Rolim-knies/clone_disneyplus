@@ -1,0 +1,41 @@
+
+
+.plans {
+    padding: 5.6vw;
+
+    h2{
+        text-align: center;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-around;
+
+        &__item{
+            text-align: center;
+            padding: 60px 44px 44px;
+            max-width: 380px;
+            width: 100%;
+            margin-top: 50px;
+
+            &:nth-child(2) { //nth-child() chama o item 2 da lisa poderia ser o 1 ou o 3 e assim por diante.
+                background-image: url(../images/fundo_combo_plus.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            img {
+                height: 83px;
+            }
+
+            strong{
+                display: block;
+                margin-top: 24px;
+            }
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+}
