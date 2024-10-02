@@ -11,6 +11,15 @@
         display: flex;
         justify-content: space-around;
 
+        @media (max-width: 768px) { //celular
+            display: block;
+        }  
+
+        .button {
+            margin-top: 21px;
+        }
+
+
         &__item{
             text-align: center;
             padding: 60px 44px 44px;
